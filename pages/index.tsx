@@ -16,8 +16,8 @@ const Home: NextPage = () => {
           To Do
         </h1>
         <div className="space-x-2">
-          <PlusIcon className="inline-block h-9 w-9 p-2 border rounded border-black hover:bg-white"/>
-          <MoonIcon className="inline-block h-9 w-9 p-2 border rounded border-black hover:bg-white"/>
+          <PlusIcon className="inline-block h-9 w-9 p-2 border rounded border-black hover:bg-fuchsia-200"/>
+          <MoonIcon className="inline-block h-9 w-9 p-2 border rounded border-black hover:bg-fuchsia-200"/>
         </div>
       </nav>
       <main className="flex-grow">
