@@ -3,7 +3,7 @@ import { PlusIcon, MoonIcon } from '@heroicons/react/outline'
 
 const Header: NextPage = () => {
   return (
-    <nav className="flex items-center justify-between flex-wrap p-3 bg-fuchsia-300 ">
+    <nav className="flex items-center justify-between flex-wrap p-3 bg-fuchsia-300">
       <h1 className="text-3xl font-bold">
         To Do
       </h1>
