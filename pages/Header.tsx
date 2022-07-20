@@ -21,10 +21,10 @@ const Header: NextPage = () => {
         To Do
       </h1>
       <div className="space-x-2">
-        <select value={theme} onChange={e => setTheme(e.target.value)}>
-          <option value="system">System</option>
-          <option value="dark">Dark</option>
-          <option value="light">Light</option>
+        <select value={theme} onChange={e => setTheme(e.target.value)} className="inline-block h-7 bg-white dark:bg-white text-black dark:text-black">
+          <option value="system" className="bg-white dark:bg-white text-black dark:text-black">System</option>
+          <option value="dark" className="bg-white dark:bg-white text-black dark:text-black">Dark</option>
+          <option value="light" className="bg-white dark:bg-white text-black dark:text-black">Light</option>
         </select>
         <PlusIcon className="inline-block h-9 w-9 p-2 border rounded border-black hover:bg-fuchsia-200"/>
         <CogIcon className="inline-block h-9 w-9 p-2 border rounded border-black hover:bg-fuchsia-200"/>
