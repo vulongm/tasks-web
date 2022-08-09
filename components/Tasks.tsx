@@ -5,7 +5,7 @@ const Tasks: NextPage = () => {
   return (
     <main className="flex-grow container mx-auto p-5">
       <h1 className="text-xl mb-3 dark:text-white">Active Tasks</h1>
-      <div className="block p-5 mb-5 rounded border border-gray-800 bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">
+      <div className="block p-5 mb-5 rounded border bg-white dark:bg-gray-800 border-black dark:border-white">
         <div className="flex justify-between items-center">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Eat the grape</h5>
           <div className="flex justify-between items-center">
@@ -20,7 +20,7 @@ const Tasks: NextPage = () => {
         </div>
         <p className="text-gray-700 dark:text-gray-400">There is a grape in the living room.</p>
       </div>
-      <div className="block p-5 mb-5 rounded border border-gray-800 bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">
+      <div className="block p-5 mb-5 rounded border bg-white dark:bg-gray-800 border-black dark:border-white">
         <div className="flex justify-between items-center">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cook dinner</h5>
           <div className="flex justify-between items-center">
