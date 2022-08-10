@@ -9,9 +9,9 @@ const Tasks: NextPage = () => {
         <div className="flex justify-between items-center">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Eat the grape</h5>
           <div className="flex justify-between items-center">
-            <PencilIcon className="h-9 w-9 p-2 mr-2 border rounded dark:text-white border-black dark:border-white hover:bg-gray-200 dark:hover:bg-gray-500"/>
-            <CheckIcon className="h-9 w-9 p-2 mr-2 border rounded dark:text-white border-black dark:border-white hover:bg-gray-200 dark:hover:bg-gray-500"/>
-            <XIcon className="h-9 w-9 p-2 border rounded dark:text-white border-black dark:border-white hover:bg-gray-200 dark:hover:bg-gray-500"/>
+            <PencilIcon className="h-9 w-9 p-2 mr-2 border rounded dark:text-white border-black dark:border-white hover:bg-gray-300 dark:hover:bg-gray-500"/>
+            <CheckIcon className="h-9 w-9 p-2 mr-2 border rounded dark:text-white border-black dark:border-white hover:bg-gray-300 dark:hover:bg-gray-500"/>
+            <XIcon className="h-9 w-9 p-2 border rounded dark:text-white border-black dark:border-white hover:bg-gray-300 dark:hover:bg-gray-500"/>
           </div>
         </div>
         <div className="mb-1">
@@ -24,9 +24,9 @@ const Tasks: NextPage = () => {
         <div className="flex justify-between items-center">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cook dinner</h5>
           <div className="flex justify-between items-center">
-            <PencilIcon className="h-9 w-9 p-2 mr-2 border rounded dark:text-white border-black dark:border-white hover:bg-gray-200 dark:hover:bg-gray-500"/>
-            <CheckIcon className="h-9 w-9 p-2 mr-2 border rounded dark:text-white border-black dark:border-white hover:bg-gray-200 dark:hover:bg-gray-500"/>
-            <XIcon className="h-9 w-9 p-2 border rounded dark:text-white border-black dark:border-white hover:bg-gray-200 dark:hover:bg-gray-500"/>
+            <PencilIcon className="h-9 w-9 p-2 mr-2 border rounded dark:text-white border-black dark:border-white hover:bg-gray-300 dark:hover:bg-gray-500"/>
+            <CheckIcon className="h-9 w-9 p-2 mr-2 border rounded dark:text-white border-black dark:border-white hover:bg-gray-300 dark:hover:bg-gray-500"/>
+            <XIcon className="h-9 w-9 p-2 border rounded dark:text-white border-black dark:border-white hover:bg-gray-300 dark:hover:bg-gray-500"/>
           </div>
         </div>
         <p className="mb-1 dark:text-white">Due by 12:00 AM</p>
