@@ -46,7 +46,6 @@ const Tasks: NextPage = () => {
           <div className="flex justify-between items-center">
             <p className="pl-2 text-black dark:text-white">{task.text}</p>
             <div className="pl-2 flex justify-between items-center">
-              <PencilIcon className="h-9 w-9 p-2 mr-2 border rounded dark:text-white border-black dark:border-white hover:bg-gray-300 dark:hover:bg-gray-500"/>
               <XIcon className="h-9 w-9 p-2 border rounded dark:text-white border-black dark:border-white hover:bg-gray-300 dark:hover:bg-gray-500" onClick={() => taskRemove(task.id)}/>
             </div>
           </div>
