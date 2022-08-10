@@ -20,6 +20,11 @@ a {
   box-sizing: border-box;
 }
 
+textarea {
+  outline: none;
+  resize: none;
+}
+
 ::selection {
   color: black;
   background: #F0ABFC;
