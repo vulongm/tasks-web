@@ -29,7 +29,7 @@ const Tasks: NextPage = () => {
   };
 
   useEffect(() => {
-    const storedTasks = JSON.parse(localStorage.getItem("tasks") || "");
+    const storedTasks = JSON.parse(localStorage.getItem("tasks"));
     if (storedTasks) setTasks(storedTasks);
   }, []);
 
