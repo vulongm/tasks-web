@@ -24,8 +24,9 @@ const Tasks: NextPage = () => {
   };
 
   const taskRemove = (id: number) => {
-    setTasks(tasks.filter((task) => task.id !== id));
-    localStorage.setItem("tasks", JSON.stringify(tasks));
+    const filter = tasks.filter((task) => task.id !== id);
+    setTasks(filter);
+    localStorage.setItem("tasks", JSON.stringify(filter));
   };
 
   useEffect(() => {
